@@ -26,7 +26,18 @@ nav{
     color: aliceblue;
     font-size: 20px;
     font-weight: 700;
-    padding: 10px 35px;
+    padding: 15px 35px;
+}
+.sec-titel{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.sec-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px ;
 }
 nav > ul{
     display: flex;
@@ -43,6 +54,9 @@ nav a{
 /*header related style */
 .header{
     background-color:#FFF8F3;
+    /*background-image:url(../background\ img.jpeg);*/
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
 }
 
@@ -50,8 +64,37 @@ nav a{
     padding:30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile pic{
-    width: 200px;
+.banner.profile pic{
+    width: 500px;
+    height: 600px;
     
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;;
+}
+.banner-titel{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/*main section styles*/
+/*about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #eedfd6;
+    margin: 130px 0px;
+}
+main{
+    max-width: 1140px;
+    margin: o auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
 }
