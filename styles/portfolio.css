@@ -168,3 +168,11 @@ main section{
     margin-top: 50px;
     background: #FD6E0A;
 }
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+.ico img{
+     padding: 20px;
+}
